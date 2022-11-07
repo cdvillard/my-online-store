@@ -49,6 +49,22 @@ export default function Product({ product, ogImage }) {
               x: 1340,
               y: 140
             }
+          },
+          {
+            text: {
+              text: 'Only on Space Jelly Gear!',
+              color: 'rgb:24292F',
+              fontFamily: 'Source Sans Pro',
+              fontSize: 48,
+              fontWeight: 'bold'
+            },
+            crop: 'fit',
+            width: 920,
+            position: {
+              gravity: 'north_west',
+              x: 1340,
+              y: 250
+            }
           }
         ]}
       />
